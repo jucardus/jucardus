@@ -1,0 +1,1 @@
+Prueba para relacionar un HTML con una base de datos *.js y un pequeño programa en JavaScript.
