@@ -1,0 +1,10 @@
+  <script>
+    function hacer () {
+      let texto = [];
+      fetch('= JUCARDUS =_= contenido =.csv')
+      .then(response => response.text()) 
+      .then(textString => {
+        document.getElementById('mostrar').innerHTML = textString.replace(/\n/g,'<p>') + '<div id="pie">~ • ~</div>';
+      });
+    }
+  </script>
